@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">All In One Shopping Nigeria</string>
+    <string name="app_name_short">All In One NG Shopping</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share this App</string>
+    <string name="menu_more">More Apps</string>
+    <string name="menu_version">Rate Us</string>
+
+    <string name="okay">Okay</string>
+    <string name="share">Share</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="type_url">Paste product link here</string>
+    <string name="share_using">Share using…</string>
+    <string name="loading_text">App loads in </string>
+    <string name="all_in_one_text">All in One Shopping</string>
+    <string name="download_our_app">Download All in One Shopping App and enjoy amazing savings:</string>
+    <string name="no_connect">No Connection</string>
+    <string name="no_connect_message">It seems you don\'t have good internet connection</string>
+    <string name="download_success_msg">You have successfully downloaded the latest update</string>
+    <string name="install">Install Now</string>
+    <string name="retry">RETRY</string>
+
+    <string name="jumia">Jumia</string>
+    <string name="konga">Konga</string>
+    <string name="aliexpress">AliExpress</string>
+    <string name="supermart">Supermart</string>
+    <string name="deluxe">Deluxe</string>
+    <string name="kilimall">Kilimall</string>
+    <string name="webmallng">WebmallNG</string>
+    <string name="amazon">Amazon</string>
+    <string name="spar">Spar</string>
+    <string name="payporte">Payporte</string>
+    <string name="jiji">Jiji</string>
+    <string name="kara">Kara</string>
+    <string name="gearbest">Gearbest</string>
+    <string name="slot">Slot</string>
+    <string name="_3chub">3CHub</string>
+    <string name="kusnap">Kusnap</string>
+    <string name="ajebo_market">Ajebo Market</string>
+    <string name="obiwezy">Obiwezy</string>
+    <string name="printivo">Printivo</string>
+    <string name="vconnect">VConnect</string>
+    <string name="jamarahome">Jamara Home</string>
+
+    <string name="all_shopping_sites">All Shopping Sites</string>
+    <string name="favorite_sites">Favorite Stores</string>
+    <string name="action_view">Action</string>
+    <string name="search">Find Store…</string>
+    <string name="menu_rate_us">Rate 5 Star</string>
+
+    <id name="viewBinding"/>
+</resources>

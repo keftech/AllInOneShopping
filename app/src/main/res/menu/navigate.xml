@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_search" android:title="@string/search" android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/share_btn"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_view" android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title="@string/action_view" app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/more_apps"
+                android:icon="@drawable/ic_baseline_favorite_24"
+                android:title="@string/menu_more"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/rate_us"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="@string/menu_rate_us"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/privacy_btn"
+                android:icon="@drawable/ic_baseline_privacy_tip_24"
+                android:title="@string/privacy"
+                app:showAsAction="always|withText" />
+        </menu>
+    </item>
+
+</menu>

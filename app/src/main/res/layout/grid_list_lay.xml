@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_normal_size"
+        android:textStyle="bold"
+        android:padding="@dimen/standard_5"
+        android:text="@string/all_shopping_sites"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue_grey"
+        android:backgroundTint="@color/light_blue_grey"
+        android:padding="@dimen/standard_5"
+        app:cardElevation="@dimen/standard_10"
+        app:cardCornerRadius="@dimen/standard_10"
+        tools:targetApi="lollipop">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/grid_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:spanCount="3"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
